@@ -2,23 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <title>Começando no HTML</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <header>
-      <img src="characters.png" alt="pessoas" />
-      <h1>Título H1</h1>
+      <img src="characters.png" alt="pessoas" class="photo" />
+      <h1 id="title">Título H1</h1>
     </header>
     <section>
       <header>
-        <h2>Posts</h2>
+        <h2 class="subtitle">Posts</h2>
       </header>
-      <article>
+      <article class="post">
         <header>
-          <h3>Post 1</h3>
-          <img src="htmlCode.jpg" alt="editor de texto - código HTML " />
+          <h3 class="post_title">Post 1</h3>
+          <img
+            src="htmlCode.jpg"
+            alt="editor de texto - código HTML"
+            class="post_image"
+          />
         </header>
-        <p>
+        <p class="post_content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
           vestibulum aliquet urna et maximus. Cras elementum, risus euismod
           ultricies suscipit, purus dolor fringilla nulla, vitae finibus dolor
@@ -34,7 +39,7 @@
       </article>
     </section>
     <footer>
-      <ul>
+      <ul class="contacts_list">
         <li>
           <a href="mailto:junkesjunior@live.com">junkesjunior@live.com</a>
         </li>
